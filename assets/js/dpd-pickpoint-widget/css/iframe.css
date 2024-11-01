@@ -1,0 +1,12 @@
+body{
+    padding: 10px;
+    background: #fff;
+}
+
+#cancel{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    text-decoration: none;
+    color: #ccc;
+}

@@ -1,0 +1,45 @@
+.dpd-overlay {
+    width: 100%;
+    height: 100%;
+    background: url(../img/overlay.png) 0 0 repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99998;
+}
+
+.dpd-popup {
+    background: transparent;
+    position: fixed;
+    top: 47%;
+    left: 50%;
+    min-width: 320px;
+    max-width: 1220px;
+    width: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+.dpd-popup #dpd_iframe {
+    border: none;
+    display:none;
+    width: 100%;
+    height: 640px;
+}
+
+.dpd-popup .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+
+}

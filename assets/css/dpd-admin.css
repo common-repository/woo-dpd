@@ -1,0 +1,80 @@
+.dpd-tab-content-border {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.dpd-select{
+    height:auto !important;
+}
+
+.progress-bar-wrapper{
+    border-radius: 4px;
+    height: 19px;
+    background: #fff;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: #bde6f9;
+    color: #000;
+    text-align: center;
+}
+
+.form-table.dpd th{
+    text-align: right;
+    padding: 5px 5px;
+}
+
+.form-table.dpd td{
+    padding: 5px 5px;
+}
+
+.order-buttons{
+    margin: 15px 0 0;
+}
+
+.order-content{
+    height: 550px;
+    overflow: auto;
+}
+
+.dimensions-input{
+    width: 45px;
+}
+
+.tab-wrapper.order{
+    height: auto;
+}
+
+.order-content h3{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.pay-tab-table th, .pay-tab-table td  {
+    text-align: center;
+}
+
+.order-pay-tab-input {
+    width: 100px;
+}
+
+.dpd.button {
+    border-color: transparent;
+    color: white;
+}
+
+.dpd.button.red{
+    background: #f85b5b;
+}
+
+.dpd.button.blue{
+    background: #0085ba;
+}
+
+.dpd.button.green{
+    background: #12b012;
+}

@@ -1,0 +1,1002 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce DPD\n"
+"POT-Creation-Date: 2019-07-01 10:16+0300\n"
+"PO-Revision-Date: 2022-05-18 15:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : "
+"2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-dpd.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/Actions.php:576 classes/Actions.php:589 classes/Actions.php:998
+msgid "Delivery"
+msgstr "Доставка"
+
+#: classes/Actions.php:620
+msgid "Sender terminals for settings order not found"
+msgstr "Не найдено терминалов по заданным настройкам для отправителя"
+
+#: classes/Actions.php:626
+msgid "Sender terminal was changed"
+msgstr "Терминал отправителя был изменен"
+
+#: classes/Actions.php:650
+msgid "Recipient terminals for settings order not found"
+msgstr "Не найдено терминалов по заданным настройкам для получателя"
+
+#: classes/Actions.php:656
+msgid "Recipient terminal was changed"
+msgstr "Терминал получателя был изменен"
+
+#: classes/Actions.php:733
+msgid "<strong>Date of shipment to DPD</strong> is required"
+msgstr "<strong>Дата передачи груза в DPD</strong> обязательное для заполнения"
+
+#: classes/Actions.php:738
+msgid "<strong>Shipping weight, kg</strong> is required and must be a number"
+msgstr "<strong>Вес отправки, кг</strong> обязательное для заполнения и должно быть числом"
+
+#: classes/Actions.php:744
+msgid "<strong>Width</strong> is required and must be a number"
+msgstr "<strong>Ширина</strong> обязательное для заполнения и должно быть числом"
+
+#: classes/Actions.php:749
+msgid "<strong>Height</strong> is required and must be a number"
+msgstr "<strong>Высота</strong> обязательное для заполнения и должно быть числом"
+
+#: classes/Actions.php:754
+msgid "<strong>Length</strong> is required and must be a number"
+msgstr "<strong>Длина</strong> обязательное для заполнения и должно быть числом"
+
+#: classes/Actions.php:760
+msgid "<strong>Number of cargo spaces</strong> is required and must be a number and  greater then 0"
+msgstr "<strong>Количество грузомест(посылок)</strong> обязательное для заполнения и должно быть числом больше нуля"
+
+#: classes/Actions.php:769
+msgid "<strong>Content Submission</strong> is required"
+msgstr "<strong>Содержимое отправки</strong> обязательное для заполнения"
+
+#: classes/Actions.php:777 classes/ShippingMethodHandler.php:170
+msgid "Sender <strong>Contact person</strong> is required"
+msgstr "Отправитель <strong>Контактное лицо</strong> обязательное для заполнения"
+
+#: classes/Actions.php:785 classes/ShippingMethodHandler.php:178
+msgid "Sender <strong>Contact name</strong> is required"
+msgstr "Отправитель <strong>Имя отправителя</strong> обязательное для заполнения"
+
+#: classes/Actions.php:793 classes/ShippingMethodHandler.php:186
+msgid "Sender <strong>Phone</strong> is required"
+msgstr "Отправитель <strong>Телефон</strong> обязательное для заполнения"
+
+#: classes/Actions.php:801 classes/ShippingMethodHandler.php:194
+msgid "Sender <strong>Email</strong> is required"
+msgstr "Отправитель <strong>Email отправителя</strong> обязательное для заполнения"
+
+#: classes/Actions.php:809
+msgid "Recipient <strong>Contact person</strong> is required"
+msgstr "Получатель <strong>Контактное лицо</strong> обязательное для заполнения"
+
+#: classes/Actions.php:817
+msgid "Recipient <strong>Contact name</strong> is required"
+msgstr "Получатель <strong>Имя получателя</strong> обязательное для заполнения"
+
+#: classes/Actions.php:825
+msgid "Recipient <strong>Phone</strong> is required"
+msgstr "Получатель <strong>Телефон</strong> обязательное для заполнения"
+
+#: classes/Actions.php:833
+msgid "Recipient <strong>Email</strong> is required"
+msgstr "Получатель <strong>Почтовый ящик, email</strong> обязательное для заполнения"
+
+#: classes/Actions.php:841 classes/Actions.php:862
+msgid "Recipient <strong>Street</strong> is required"
+msgstr "Получатель <strong>Улица</strong> обязательное для заполнения"
+
+#: classes/Actions.php:852 classes/ShippingMethodHandler.php:304
+msgid "Sender <strong>Street</strong> is required"
+msgstr "Отправитель <strong>Улица</strong> обязательное для заполнения"
+
+#: classes/Actions.php:872 classes/ShippingMethodHandler.php:298
+msgid "Sender <strong>Terminal</strong> is required"
+msgstr "Отправитель <strong>Терминал</strong> обязательный для заполнения"
+
+#: classes/Actions.php:882
+msgid "Recipient <strong>Terminal</strong> is required"
+msgstr "Получатель <strong>Терминал</strong> обязательный для заполнения"
+
+#: classes/Actions.php:1057
+msgid "Order sended"
+msgstr "Заказ отправлен"
+
+#: classes/Actions.php:1084 classes/Actions.php:1128
+msgid "Order ID is required"
+msgstr "ID заказа обязательный для заполнения"
+
+#: classes/Actions.php:1106
+msgid "Order canceled"
+msgstr "Заказ отменен"
+
+#: classes/Actions.php:1148
+msgid "Unknow action"
+msgstr "Неизвестное действие"
+
+#: classes/DataImport.php:36
+msgid "Step not found"
+msgstr "Шаг не найден"
+
+#: classes/DataImport.php:48
+msgid "DPDconfig empty"
+msgstr "Конфиг пуст. Выполните настройку плагина."
+
+#: classes/DataImport.php:80 views/backend/import.php:10
+msgid "Import cities"
+msgstr "Импорт городов"
+
+#: classes/DataImport.php:81
+msgid "Import cities with cash pay"
+msgstr "Импорт городов с оплатой наличными"
+
+#: classes/DataImport.php:82
+msgid "Import terminals unlimited"
+msgstr "Импорт терминалов без лимита"
+
+#: classes/DataImport.php:83
+msgid "Import terminals with limited"
+msgstr "Импорт терминалов с лимитом"
+
+#: classes/DataImport.php:86
+msgid "Import ended"
+msgstr "Импорт окончен"
+
+#: classes/Kernel.php:250
+msgid "Please, select pickpoint."
+msgstr "Пожалуйста, выберите точку самовывоза"
+
+#: classes/Kernel.php:270
+msgid "DPD delevery shipping method"
+msgstr "DPD доставка"
+
+#: classes/Kernel.php:271
+msgid "pickup"
+msgstr "Самовывоз"
+
+#: classes/Kernel.php:272
+msgid "courier"
+msgstr "Курьер"
+
+#: classes/Kernel.php:274
+msgid "DPD pickup code"
+msgstr "DPD код пункта самовывоза"
+
+#: classes/Kernel.php:299
+msgid "Select pickpoint"
+msgstr "Выбрать пункт самовывоза"
+
+#: classes/Kernel.php:312 classes/ShippingMethodHandler.php:32
+msgid "DPD"
+msgstr "DPD"
+
+#: classes/Kernel.php:341
+msgid "Edit data for DPD"
+msgstr "Редактирование данных для DPD"
+
+#: classes/Kernel.php:341
+msgid "Order Controll"
+msgstr "Управление заказом"
+
+#: classes/Kernel.php:343
+msgid "Another delivery method was selected"
+msgstr "Выбран другой способ доставки"
+
+#: classes/ShippingMethodHandler.php:19
+msgid "DPD Shipping"
+msgstr "Доставка DPD"
+
+#: classes/ShippingMethodHandler.php:20
+msgid "Express delivery of parcels and goods"
+msgstr "Экспресс доставка посылок и товаров"
+
+#: classes/ShippingMethodHandler.php:20
+msgid "Instruction for the module"
+msgstr "Инструкция по работе с модулем"
+
+#: classes/ShippingMethodHandler.php:133
+msgid "Courier"
+msgstr "Курьер"
+
+#: classes/ShippingMethodHandler.php:149
+msgid "Pickup"
+msgstr "Самовывоз"
+
+#: classes/ShippingMethodHandler.php:202
+msgid "Sender <strong>City</strong> is required"
+msgstr "Отправитель <strong>Город</strong> обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:210
+msgid "<strong>Sending content</strong> is required"
+msgstr "<strong>Содержимое отправки</strong> обязательное для заполнения"
+
+#: classes/ShippingMethodHandler.php:218
+msgid "Use autocomplete for <strong>City</strong> field"
+msgstr "Используйте автозаполнение для поля Отправитель <strong>Город</strong>"
+
+#: classes/ShippingMethodHandler.php:226
+msgid "<strong>Weight default, g</strong> can't be empty and must be a number"
+msgstr "<strong>Вес заказа по умолчанию, г </strong> не может быть пустым и должно быть числом"
+
+#: classes/ShippingMethodHandler.php:234
+msgid "<strong>Length by default, mm</strong> can't be empty and  must be a number"
+msgstr "<strong>Длина заказа по умолчанию, мм</strong> не может быть пустым и должно быть числом"
+
+#: classes/ShippingMethodHandler.php:242
+msgid "<strong>Width by default, mm</strong> can't be empty and must be a number"
+msgstr " <strong>Ширина заказа по умолчанию, мм</strong> не может быть пустым и должно быть числом"
+
+#: classes/ShippingMethodHandler.php:250
+msgid "<strong>Height by default, mm</strong> can't be empty and must be a number"
+msgstr " <strong>Высота заказа по умолчанию, мм</strong> не может быть пустым и должно быть числом"
+
+#: classes/ShippingMethodHandler.php:260
+msgid "<strong>Client Number</strong> for Russia is required"
+msgstr "<strong>Клиентский номер в системе DPD</strong> России обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:265
+msgid "<strong>Authorization key</strong> for Russia is required"
+msgstr "<strong>Ключ для авторизации</strong> России обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:272
+msgid "<strong>Client Number</strong> for Kazakhstan is required"
+msgstr "<strong>Клиентский номер в системе DPD</strong> Казахстана обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:277
+msgid "<strong>Authorization key</strong> for Kazakhstan is required"
+msgstr "<strong>Ключ для авторизации</strong> Казахстана обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:284
+msgid "<strong>Client Number</strong> for Belarus is required"
+msgstr "<strong>Клиентский номер в системе DPD</strong> Беларуси обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:289
+msgid "<strong>Authorization key</strong> for Belarus is required"
+msgstr "<strong>Ключ для авторизации</strong> Беларуси обязательный для заполнения"
+
+#: classes/ShippingMethodHandler.php:332
+msgid "Your settings have been saved."
+msgstr "Ваши настройки сохранены."
+
+#: views/backend/import.php:8
+msgid "Step"
+msgstr "Шаг"
+
+#: views/backend/import.php:9
+msgid "of"
+msgstr "из"
+
+#: views/backend/order/order.php:5
+msgid "Order"
+msgstr "Заказ"
+
+#: views/backend/order/order.php:6 views/backend/settings/settings.php:10
+msgid "Sender"
+msgstr "Отправитель"
+
+#: views/backend/order/order.php:7 views/backend/settings/settings.php:11
+msgid "Recipient"
+msgstr "Получатель"
+
+#: views/backend/order/order.php:7 views/backend/settings/settings.php:20
+msgid "PHP extension pdo_mysql not found"
+msgstr "Внимание! На сервере не установлено расширение PHP pdo_mysql, в связи с этим возможны задержки в работе модуля"
+
+#: views/backend/order/order.php:8
+msgid "Payment"
+msgstr "Оплата"
+
+#: views/backend/order/order.php:9 views/backend/order/tabs/options.php:1
+#: views/backend/settings/tabs/shipping_description.php:200
+msgid "Options"
+msgstr "Опции"
+
+#: views/backend/order/order.php:10
+msgid "Docs"
+msgstr "Документы"
+
+#: views/backend/order/order.php:36
+msgid "Calculated delivery price"
+msgstr "Рассчитанная стоимость доставки"
+
+#: views/backend/order/order.php:40
+msgid "Delivery time"
+msgstr "Срок доставки"
+
+#: views/backend/order/order.php:41
+msgid "d"
+msgstr "д"
+
+#: views/backend/order/order.php:71 views/backend/order/order.php:76
+msgid "Send Order"
+msgstr "Отправить заказ"
+
+#: views/backend/order/order.php:79 views/backend/order/order.php:84
+msgid "Cancel Order"
+msgstr "Отменить заказ"
+
+#: views/backend/order/order.php:87 views/backend/order/order.php:88
+msgid "Close"
+msgstr "Закрыть"
+
+#: views/backend/order/tabs/docs.php:2
+msgid "Invoice"
+msgstr "Накладная"
+
+#: views/backend/order/tabs/docs.php:9
+msgid "Download invoice file"
+msgstr "Запросить файл накладной"
+
+#: views/backend/order/tabs/docs.php:14
+msgid "Sticker printing"
+msgstr "Печать наклеек"
+
+#: views/backend/order/tabs/docs.php:19
+msgid "Count"
+msgstr "Количество"
+
+#: views/backend/order/tabs/docs.php:32
+msgid "File format"
+msgstr "Формат файла"
+
+#: views/backend/order/tabs/docs.php:47
+msgid "Print area format"
+msgstr "Формат области печати"
+
+#: views/backend/order/tabs/docs.php:63
+msgid "Download label file"
+msgstr "Запросить файл наклеек"
+
+#: views/backend/order/tabs/docs.php:69
+msgid "Documents can be printed only for the created order in DPD with the status \"Successfully created\"."
+msgstr "Документы можно печатать только для созданного заказа в DPD со статусом «Успешно создан»"
+
+#: views/backend/order/tabs/options.php:3 views/backend/settings/tabs/shipping_description.php:202
+msgid "The cost of the options is not taken into account when calculating the delivery."
+msgstr "Стоимость платных опций не учитывается при расчете доставки."
+
+#: views/backend/order/tabs/options.php:9 views/backend/settings/tabs/shipping_description.php:208
+msgid "Valuable cargo"
+msgstr "Ценный груз"
+
+#: views/backend/order/tabs/options.php:23 views/backend/order/tabs/options.php:44
+#: views/backend/order/tabs/options.php:65 views/backend/order/tabs/options.php:86
+#: views/backend/order/tabs/options.php:107 views/backend/order/tabs/options.php:147
+#: views/backend/settings/tabs/shipping_description.php:242 views/backend/settings/tabs/shipping_description.php:263
+#: views/backend/settings/tabs/shipping_description.php:284 views/backend/settings/tabs/shipping_description.php:305
+#: views/backend/settings/tabs/shipping_description.php:349
+msgid "option paid, check with the manager"
+msgstr "опция платная, стоимость уточняйте у менеджера"
+
+#: views/backend/order/tabs/options.php:30 views/backend/settings/tabs/shipping_description.php:228
+msgid "Weekend delivery"
+msgstr "Доставка в выходные дни"
+
+#: views/backend/order/tabs/options.php:51 views/backend/settings/tabs/shipping_description.php:249
+msgid "Temperature conditions"
+msgstr "Температурный режим"
+
+#: views/backend/order/tabs/options.php:72 views/backend/settings/tabs/shipping_description.php:270
+msgid "Loading and unloading during delivery"
+msgstr "Погрузо-разгрузочные работы при доставке"
+
+#: views/backend/order/tabs/options.php:93 views/backend/settings/tabs/shipping_description.php:291
+msgid "Return documents to the sender"
+msgstr "Возврат документов отправителю"
+
+#: views/backend/order/tabs/options.php:114 views/backend/settings/tabs/shipping_description.php:312
+msgid "Waiting on the address"
+msgstr "Ожидание на адресе"
+
+#: views/backend/order/tabs/options.php:123 views/backend/settings/tabs/shipping_description.php:325
+msgid "- Not selected -"
+msgstr "- Не установлено -"
+
+#: views/backend/order/tabs/options.php:130 views/backend/settings/tabs/shipping_description.php:332
+msgid "Fitting"
+msgstr "Примерка"
+
+#: views/backend/order/tabs/options.php:137 views/backend/settings/tabs/shipping_description.php:339
+msgid "Simple"
+msgstr "Простая"
+
+#: views/backend/order/tabs/options.php:144 views/backend/settings/tabs/shipping_description.php:346
+msgid "Health check"
+msgstr "Проверка работоспособности"
+
+#: views/backend/order/tabs/options.php:152 views/backend/settings/tabs/shipping_description.php:354
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: views/backend/order/tabs/options.php:157 views/backend/settings/tabs/shipping_description.php:359
+msgid "Order Received Email"
+msgstr "Email"
+
+#: views/backend/order/tabs/order.php:4 views/backend/settings/settings.php:14
+msgid "Status"
+msgstr "Статус"
+
+#: views/backend/order/tabs/order.php:12
+msgid "Woocommerce ID"
+msgstr "WooCommerce ID"
+
+#: views/backend/order/tabs/order.php:20
+msgid "DPD ID"
+msgstr "Номер заказа DPD"
+
+#: views/backend/order/tabs/order.php:28
+msgid "Payment type"
+msgstr "Оплата"
+
+#: views/backend/order/tabs/order.php:37
+msgid "Cashless payments"
+msgstr "Безналичный расчет"
+
+#: views/backend/order/tabs/order.php:44 views/backend/settings/tabs/shipping_description.php:62
+msgid "Payment at the recipient in cash"
+msgstr "Оплата у получателя наличными"
+
+#: views/backend/order/tabs/order.php:51 views/backend/settings/tabs/shipping_description.php:69
+msgid "Payment at the sender in cash"
+msgstr "Оплата у отправителя наличными"
+
+#: views/backend/order/tabs/order.php:59
+msgid "Delivery type"
+msgstr "Служба доставки"
+
+#: views/backend/order/tabs/order.php:101
+msgid "Delivery variant"
+msgstr "Вариант доставки"
+
+#: views/backend/order/tabs/order.php:110
+msgid "Door - Door"
+msgstr "Дверь - Дверь"
+
+#: views/backend/order/tabs/order.php:117
+msgid "Door - Terminal"
+msgstr "Дверь - Терминал"
+
+#: views/backend/order/tabs/order.php:124
+msgid "Terminal - Door"
+msgstr "Терминал - Дверь"
+
+#: views/backend/order/tabs/order.php:131
+msgid "Terminal - Terminal"
+msgstr "Терминал - Терминал"
+
+#: views/backend/order/tabs/order.php:138
+msgid "Date of shipment to DPD"
+msgstr "Дата передачи груза в DPD"
+
+#: views/backend/order/tabs/order.php:147 views/backend/settings/tabs/shipping_description.php:78
+msgid "DPD Transit Time Interval"
+msgstr "Интервал времени передачи груза в DPD"
+
+#: views/backend/order/tabs/order.php:156 views/backend/order/tabs/order.php:191
+#: views/backend/settings/tabs/shipping_description.php:95 views/backend/settings/tabs/shipping_description.php:135
+msgid "any time from 09:00 to 18:00"
+msgstr "в любое время с 09:00 до 18:00"
+
+#: views/backend/order/tabs/order.php:163 views/backend/settings/tabs/shipping_description.php:102
+msgid "from 09:00 to 13:00"
+msgstr "с 09:00 до 13:00"
+
+#: views/backend/order/tabs/order.php:170 views/backend/order/tabs/order.php:205
+#: views/backend/settings/tabs/shipping_description.php:109 views/backend/settings/tabs/shipping_description.php:149
+msgid "13:00 to 18:00"
+msgstr "с 13:00 до 18:00"
+
+#: views/backend/order/tabs/order.php:178 views/backend/settings/tabs/shipping_description.php:118
+msgid "Delivery time interval"
+msgstr "Интервал времени доставки груза"
+
+#: views/backend/order/tabs/order.php:198 views/backend/settings/tabs/shipping_description.php:142
+msgid "from 09:00 to 14:00"
+msgstr "с 09:00 до 14:00"
+
+#: views/backend/order/tabs/order.php:212 views/backend/settings/tabs/shipping_description.php:156
+msgid "18:00 to 22:00 (extra charge)"
+msgstr "с 18:00 да 22:00 (оплачивается дополнительно)"
+
+#: views/backend/order/tabs/order.php:219
+msgid "Order detail"
+msgstr "Детали заказа"
+
+#: views/backend/order/tabs/order.php:223
+msgid "Shipping weight, kg"
+msgstr "Вес отправки, кг"
+
+#: views/backend/order/tabs/order.php:232 views/backend/settings/settings.php:6
+msgid "Dimensions"
+msgstr "Габариты (ШхВхГ), см"
+
+#: views/backend/order/tabs/order.php:248
+msgid "Volume, m<sup>3</sup>"
+msgstr "Объём, м<sup>3</sup>"
+
+#: views/backend/order/tabs/order.php:257 views/backend/settings/tabs/shipping_description.php:165
+msgid "Number of cargo spaces (parcels)"
+msgstr "Колличество грузомест(посылок)"
+
+#: views/backend/order/tabs/order.php:266
+msgid "Content Submission"
+msgstr "Содержимое отправки"
+
+#: views/backend/order/tabs/payment.php:1
+msgid "Order content"
+msgstr "Состав заказа"
+
+#: views/backend/order/tabs/payment.php:4
+msgid "Name"
+msgstr "Название"
+
+#: views/backend/order/tabs/payment.php:5
+msgid "Quantity"
+msgstr "Количество"
+
+#: views/backend/order/tabs/payment.php:6
+msgid "Declared cost"
+msgstr "Объявленная ценность"
+
+#: views/backend/order/tabs/payment.php:7
+msgid "Npp amount"
+msgstr "Наложенный платеж"
+
+#: views/backend/order/tabs/payment.php:8
+msgid "Tax"
+msgstr "НДС"
+
+#: views/backend/order/tabs/payment.php:42
+msgid "Whithout tax"
+msgstr "Без НДС"
+
+#: views/backend/order/tabs/payment.php:46
+msgid "0%"
+msgstr "0%"
+
+#: views/backend/order/tabs/payment.php:50
+msgid "10%"
+msgstr "10%"
+
+#: views/backend/order/tabs/payment.php:54
+msgid "20%"
+msgstr "НДС 20%"
+
+#: views/backend/order/tabs/payment.php:61
+msgid "Declared value"
+msgstr "Объявленная ценность"
+
+#: views/backend/order/tabs/payment.php:66
+msgid "Indicate the declared value"
+msgstr "Указывать ОЦ"
+
+#: views/backend/order/tabs/payment.php:86
+msgid "Cargo value"
+msgstr "Сумма объявленной ценности"
+
+#: views/backend/order/tabs/payment.php:100
+msgid "C.O.D"
+msgstr "Наложенный платеж"
+
+#: views/backend/order/tabs/payment.php:105
+msgid "Use npp"
+msgstr "Курьер получает деньги за заказ"
+
+#: views/backend/order/tabs/payment.php:125
+msgid "Npp sum"
+msgstr "Сумма наложенного платежа"
+
+#: views/backend/order/tabs/recipient.php:5 views/backend/order/tabs/sender.php:5
+#: views/backend/settings/tabs/sender.php:5
+msgid "Contact person"
+msgstr "Контактное лицо"
+
+#: views/backend/order/tabs/recipient.php:22 views/backend/order/tabs/sender.php:22
+#: views/backend/settings/tabs/sender.php:23
+msgid "Contact name"
+msgstr "Имя отправителя"
+
+#: views/backend/order/tabs/recipient.php:39 views/backend/order/tabs/sender.php:39
+#: views/backend/settings/tabs/sender.php:41
+msgid "Phone"
+msgstr "Телефон отправителя"
+
+#: views/backend/order/tabs/recipient.php:56 views/backend/order/tabs/sender.php:56
+#: views/backend/settings/tabs/sender.php:59
+msgid "Email"
+msgstr "Email"
+
+#: views/backend/order/tabs/recipient.php:73 views/backend/order/tabs/sender.php:73
+#: views/backend/settings/tabs/recipient.php:5 views/backend/settings/tabs/sender.php:94
+msgid "Require Pass"
+msgstr "Требовать пропуск"
+
+#: views/backend/order/tabs/recipient.php:91 views/backend/order/tabs/sender.php:91
+#: views/backend/settings/tabs/sender.php:112
+msgid "Location"
+msgstr "Адрес"
+
+#: views/backend/order/tabs/recipient.php:96 views/backend/order/tabs/sender.php:96
+#: views/backend/settings/tabs/sender.php:117
+msgid "City"
+msgstr "Город"
+
+#: views/backend/order/tabs/recipient.php:118 views/backend/order/tabs/sender.php:116
+#: views/backend/settings/tabs/sender.php:149
+msgid "Street"
+msgstr "Улица"
+
+#: views/backend/order/tabs/recipient.php:135 views/backend/order/tabs/sender.php:133
+#: views/backend/settings/tabs/sender.php:166
+msgid "Street abbreviation"
+msgstr "Аббревиатура улицы"
+
+#: views/backend/order/tabs/recipient.php:153 views/backend/order/tabs/sender.php:150
+#: views/backend/settings/tabs/sender.php:183
+msgid "Housing"
+msgstr "Дом"
+
+#: views/backend/order/tabs/recipient.php:170 views/backend/order/tabs/sender.php:167
+#: views/backend/settings/tabs/sender.php:200
+msgid "Korpus"
+msgstr "Корпус"
+
+#: views/backend/order/tabs/recipient.php:187 views/backend/order/tabs/sender.php:184
+#: views/backend/settings/tabs/sender.php:217
+msgid "Structure"
+msgstr "Строение"
+
+#: views/backend/order/tabs/recipient.php:204 views/backend/order/tabs/sender.php:201
+#: views/backend/settings/tabs/sender.php:234
+msgid "Possession"
+msgstr "Владение"
+
+#: views/backend/order/tabs/recipient.php:221 views/backend/order/tabs/sender.php:218
+#: views/backend/settings/tabs/sender.php:251
+msgid "Office"
+msgstr "Офис"
+
+#: views/backend/order/tabs/recipient.php:238 views/backend/order/tabs/sender.php:235
+#: views/backend/settings/tabs/sender.php:268
+msgid "Flat"
+msgstr "Квартира"
+
+#: views/backend/order/tabs/recipient.php:263 views/backend/order/tabs/sender.php:260
+#: views/backend/settings/tabs/sender.php:140 views/backend/settings/tabs/sender.php:289
+msgid "Terminal"
+msgstr "Терминал"
+
+#: views/backend/settings/settings.php:5
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#: views/backend/settings/settings.php:7
+msgid "Delivery calculation"
+msgstr "Расчет доставки"
+
+#: views/backend/settings/settings.php:13
+msgid "Shipping Description"
+msgstr "Описание отправки"
+
+#: views/backend/settings/settings.php:16
+msgid "Import data"
+msgstr "Импорт данных"
+
+#: views/backend/settings/tabs/calculation.php:5
+msgid ""
+"Specify the rates that will NOT be\n"
+"used in calculations"
+msgstr ""
+"Укажите тарифы которые НЕ будут\n"
+"использоваться при расчетах"
+
+#: views/backend/settings/tabs/calculation.php:58
+msgid "Default rate"
+msgstr "Тариф по умолчанию"
+
+#: views/backend/settings/tabs/calculation.php:79
+msgid ""
+"Maximum shipping cost\n"
+"at which the default rate will be applied"
+msgstr ""
+"Максимальная стоимость доставки\n"
+"при которой будет применен тариф по умолчанию"
+
+#: views/backend/settings/tabs/calculation.php:98
+msgid "Include insurance in the cost of delivery"
+msgstr "Включать страховку в стоимость доставки"
+
+#: views/backend/settings/tabs/calculation.php:118
+msgid "Calculate shipping costs by item"
+msgstr "Расчитывать стоимость доставки по товарам"
+
+#: views/backend/settings/tabs/calculation.php:138
+msgid "Round to units"
+msgstr "Округлять до единиц"
+
+#: views/backend/settings/tabs/calculation.php:156
+msgid "Extend delivery time (days)"
+msgstr "Увеличить срок доставки на (дн.)"
+
+#: views/backend/settings/tabs/calculation.php:175
+msgid "Include cash on delivery fee in the cost of delivery"
+msgstr "Включать комиссию за инкассацию наложенным платежом в стоимость доставки"
+
+#: views/backend/settings/tabs/calculation.php:196
+msgid "Commission on the value of goods in the order, %"
+msgstr "Комиссия от стоимости товаров в заказе (в процентах), %"
+
+#: views/backend/settings/tabs/calculation.php:214
+msgid "The minimum amount of commission in the currency"
+msgstr "Минимальная сумма комиссии, руб."
+
+#: views/backend/settings/tabs/calculation.php:247
+msgid "Tie payment systems, which means that the payment will be cash on delivery"
+msgstr "Привяжите платежные системы, которые означают что оплата будет происходить наложенным платежом"
+
+#: views/backend/settings/tabs/dimensions.php:18
+msgid "Apply"
+msgstr "Применять для"
+
+#: views/backend/settings/tabs/dimensions.php:30
+msgid "to the entire order"
+msgstr "Для всего заказа"
+
+#: views/backend/settings/tabs/dimensions.php:38
+msgid "for goods in order"
+msgstr "Для товаров в заказе"
+
+#: views/backend/settings/tabs/dimensions.php:47
+msgid "Weight default, g"
+msgstr "Вес заказа по умолчанию, г"
+
+#: views/backend/settings/tabs/dimensions.php:65
+msgid "Length by default, mm"
+msgstr "Длина заказа по умолчанию, мм"
+
+#: views/backend/settings/tabs/dimensions.php:83
+msgid "Width by default, mm"
+msgstr "Ширина заказа по умолчанию, мм"
+
+#: views/backend/settings/tabs/dimensions.php:101
+msgid "Height by default, mm"
+msgstr "Высота заказа по умолчанию, мм"
+
+#: views/backend/settings/tabs/import.php:3
+msgid "Run import data"
+msgstr "Запустить импорт данных"
+
+#: views/backend/settings/tabs/main.php:4 views/backend/settings/tabs/main.php:124
+msgid "Russia"
+msgstr "Россия"
+
+#: views/backend/settings/tabs/main.php:5 views/backend/settings/tabs/main.php:132
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: views/backend/settings/tabs/main.php:6 views/backend/settings/tabs/main.php:140
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: views/backend/settings/tabs/main.php:12
+msgid ""
+"You can get the integration key by following the link <a href=\"http://www.dpd.ru/ols/order/personal/integrationkey."
+"do2\" target=\"_blank\">http://www.dpd.ru/ols/order/personal/integrationkey.do2</a> in your MyDPD account or by "
+"contacting the support service by email integrators@dpd.ru"
+msgstr ""
+"Получить ключ интеграции вы можете пройдя по ссылке <a href=\"http://www.dpd.ru/ols/order/personal/integrationkey."
+"do2\" target=\"_blank\">http://www.dpd.ru/ols/order/personal/integrationkey.do2</a> в личном кабинете MyDPD или "
+"обратившись в службу поддержки на email integrators@dpd.ru"
+
+#: views/backend/settings/tabs/main.php:35
+msgid "Client Number"
+msgstr "Клиентский номер в системе DPD"
+
+#: views/backend/settings/tabs/main.php:52
+msgid "Authorization key"
+msgstr "Ключ для авторизации"
+
+#: views/backend/settings/tabs/main.php:69
+msgid "Account currency"
+msgstr "Валюта аккаунта"
+
+#: views/backend/settings/tabs/main.php:81
+msgid "Tenge"
+msgstr "Тенге"
+
+#: views/backend/settings/tabs/main.php:85
+msgid "Russian Ruble"
+msgstr "Рубль"
+
+#: views/backend/settings/tabs/main.php:88
+msgid "US Dollar"
+msgstr "Доллар"
+
+#: views/backend/settings/tabs/main.php:91
+msgid "Euro"
+msgstr "Евро"
+
+#: views/backend/settings/tabs/main.php:94
+msgid "Hryvnia"
+msgstr "Гривна"
+
+#: views/backend/settings/tabs/main.php:97
+msgid "Belarusian ruble"
+msgstr "Белорусский рубль"
+
+#: views/backend/settings/tabs/main.php:111
+msgid "Default account"
+msgstr "Аккаунт по умолчанию"
+
+#: views/backend/settings/tabs/main.php:149
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+#: views/backend/settings/tabs/main.php:169
+msgid "Pick pount selection required"
+msgstr "Обязателен ли выбор ПВЗ"
+
+#: views/backend/settings/tabs/sender.php:77
+msgid "Regular number"
+msgstr "Номер регулярного отправления"
+
+#: views/backend/settings/tabs/sender.php:137
+msgid "To door"
+msgstr "Дверь"
+
+#: views/backend/settings/tabs/shipping_description.php:5
+msgid "Sending method"
+msgstr "Метод отправки"
+
+#: views/backend/settings/tabs/shipping_description.php:22
+msgid "We will carry orders ourselves"
+msgstr "Мы будем возить заказы сами"
+
+#: views/backend/settings/tabs/shipping_description.php:29
+msgid "We want to call the fence automatically"
+msgstr "Мы хотим вызывать забор автоматически"
+
+#: views/backend/settings/tabs/shipping_description.php:38
+msgid "Payment method delivery"
+msgstr "Способ оплаты доставки"
+
+#: views/backend/settings/tabs/shipping_description.php:55
+msgid "By sender by wire transfer"
+msgstr "У отправителя по безналичному расчёту"
+
+#: views/backend/settings/tabs/shipping_description.php:183
+msgid "Sending content"
+msgstr "Содержимое отправки"
+
+#: views/backend/settings/tabs/status.php:2
+msgid ""
+"This group of settings is needed in order to quickly track the status of orders. Once every 10 minutes, information "
+"is requested on the status of sent applications. When a response is received, orders will be placed in the specified "
+"statuses if they are accepted, or for some reason rejected. It also tracks the status of delivery orders. It is "
+"recommended to create two new ones.\n"
+"order status, to make it easier to track the status of applications."
+msgstr ""
+"Данная группа настроек нужна для того, чтобы оперативно отслеживать статусы заказов. Раз в 10 минут запрашивается "
+"информация по статусам отправленных заявок. При получении ответа заказы выставятся в указанные статусы, если они "
+"приняты или по каким-то причинам отклонены. Так же отслеживаются статусы доставки заказов. Рекомендуется создать два "
+"новых статуса заказа, чтобы удобнее было отслеживать по ним состояние заявок."
+
+#: views/backend/settings/tabs/status.php:6
+msgid ""
+"<strong>Attention!</strong> To be able to track the statuses of the DPD packages, you need to make a request to the "
+"DPD employee on the dpd.ru website. To do this, write to him: \"To work with the getEvents method, connect us with "
+"the package tracking service with confirmation\""
+msgstr ""
+"<strong>Внимание!</strong> Для возможности отслеживания статусов посылок DPD Вам необходимо сделать запрос к "
+"сотруднику DPD на сайте <a href=\"http://dpd.ru/\" target=\"_blank\">dpd.ru</a>, для этого напишите ему: \"Для "
+"работы с методом getEvents подключите нам услугу отслеживания посылок с подтверждением\""
+
+#: views/backend/settings/tabs/status.php:17
+msgid "Place orders for a shipment ID"
+msgstr "Выставлять принятым заказам идентификатор отправления"
+
+#: views/backend/settings/tabs/status.php:37
+msgid "Mark delivered order paid"
+msgstr "Отмечать доставленный заказ оплаченным"
+
+#: views/backend/settings/tabs/status.php:57
+msgid "Track order statuses in DPD"
+msgstr "Отслеживать статусы заказов в DPD"
+
+#: views/backend/settings/tabs/status.php:89
+msgid "- No binding -"
+msgstr "- Не задано -"
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce DPD"
+msgstr "Woocommerce DPD"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.dpd.ru/"
+msgstr "https://www.dpd.ru/"
+
+#. Description of the plugin/theme
+msgid "Интеграция Woocommerce с сервисом доставки DPD"
+msgstr "Интеграция Woocommerce с сервисом доставки DPD"
+
+#. Author of the plugin/theme
+msgid "Oleksandr Kruchenko"
+msgstr "Oleksandr Kruchenko"
+
+#. Author URI of the plugin/theme
+msgid "http://www.pimentos.com.ua/"
+msgstr "http://www.pimentos.com.ua/"
+
+#: views/backend/settings/tabs/sender.php:133
+msgid "Sender_default"
+msgstr "Использовать по умолчанию"
+
+#: views/backend/settings/tabs/sender.php:146
+msgid "Sender_name"
+msgstr "Наименование"
+
+#~ msgid "<strong>Number of cargo spaces</strong> is required and must be a number"
+#~ msgstr "<strong>Количество грузомест(посылок)</strong> обязательное для заполнения и должно быть числом"
+
+#~ msgid "Order status delivered to the warehouse"
+#~ msgstr "Статус заказа доставленного на склад"
+
+#~ msgid "Order status in transit"
+#~ msgstr "Статус заказа находящегося в пути"
+
+#~ msgid "Order status ready to issue at the point of issue"
+#~ msgstr "Статус заказа готового к выдачи на пункте выдачи"
+
+#~ msgid "Order status ready for delivery to the courier for delivery to the door"
+#~ msgstr "Статус заказа готового к передаче курьеру для доставки до двери"
+
+#~ msgid "Order status sent to the courier for delivery to the door"
+#~ msgstr "Статус заказа переданного курьеру для доставки до двери"
+
+#~ msgid "Order status issued to recipient"
+#~ msgstr "Статус заказа выданного получателю"
+
+#~ msgid "Order status with which a problem situation occurred"
+#~ msgstr "Статус заказа с которым возникла проблемная ситуация"
+
+#~ msgid "Order status refused by customer"
+#~ msgstr "Статус заказа от которого отказался клиент"
+
+#~ msgid "<strong>Sum of declared value</strong> is required"
+#~ msgstr "<strong>Сумма объявленной ценности</strong> обязательное для заполнения"
+
+#~ msgid "<strong>Sum of C.O.D</strong> is required"
+#~ msgstr "<strong>Сумма наложенного платежа</strong> is required"
+
+#~ msgid "rub"
+#~ msgstr "руб"
+
+#~ msgid "Indicate DV"
+#~ msgstr "Указывать ОЦ"
+
+#~ msgid "Sum of declared value"
+#~ msgstr "Сумма объявленной ценности"
+
+#~ msgid "Courier receives money for order"
+#~ msgstr "Курьер получает деньги за заказ"
+
+#~ msgid "Sum of C.O.D"
+#~ msgstr "Сумма наложенного платежа"

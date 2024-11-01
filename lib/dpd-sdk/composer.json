@@ -1,0 +1,20 @@
+{
+    "name": "ipol/dpd.sdk",
+    "description": "",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "dpd",
+        "dpd api",
+        "dpd soap"
+    ],
+    "require": {
+        "php": ">= 5.4",
+        "symfony/cache": "3.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ipol\\DPD\\": "src/lib"
+        }
+    }
+}
